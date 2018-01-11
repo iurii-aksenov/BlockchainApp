@@ -25,7 +25,7 @@ namespace BlockchainLibrary
         }
 
         public HashSet<string> Nodes { get; }
-
+        
         public List<Block> Chain { get; private set; }
 
         public Block LastBlock => Chain[Chain.Count - 1];
